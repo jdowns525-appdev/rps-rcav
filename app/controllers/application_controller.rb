@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  layout()
+  layout("wrapper.html.erb")
 
   # Add your actions below this line
   # ================================
